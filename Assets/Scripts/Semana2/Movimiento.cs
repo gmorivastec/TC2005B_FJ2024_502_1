@@ -95,7 +95,8 @@ public class Movimiento : MonoBehaviour
         transform.Translate(
             h * _velocidad * Time.deltaTime, 
             v * _velocidad * Time.deltaTime, 
-            0
+            0,
+            Space.World
         );
 
         // los ejes pueden ser sondeados como botón
