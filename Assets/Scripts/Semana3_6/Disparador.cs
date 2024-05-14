@@ -14,6 +14,47 @@ public class Disparador : MonoBehaviour
     private IEnumerator _enumerator, _enumeratorDisparo;
     private Coroutine _coroutine;
 
+    // Singleton 
+    // https://en.wikipedia.org/wiki/Singleton_pattern
+    // patrón de diseño de software
+
+    // en unity no podemos usar un constructor privado
+    // tenemos que hacer un singleton "correctivo"
+    
+
+    // propiedad 
+    // mecanismo de C# (aunque existe en otros lenguajes)
+    // que sirve para regular quién lee y quién escribe un atributo
+
+    // con una variable declarada explícitamente
+    private int _variableEjemplo;
+    public int PropiedadEjemplo {
+        get {
+            return _variableEjemplo;
+        }
+        private set {
+            _variableEjemplo = value;
+        }
+    }
+
+    // con una variable anónima
+    public static Disparador Instance {
+        get;
+        private set;
+    }
+
+    void Awake()
+    {
+        // mecanismo de singleton correctivo
+        // verificamos si ya existía la instancia
+        if(Instance != null){
+            Destroy(gameObject);
+        } else {
+            // si está vacío aparto el lugar
+            Instance = this;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -91,6 +132,7 @@ public class Disparador : MonoBehaviour
     {
         while(true)
         {
+            /*
             // DISPARA!
             // el proceso de crear nuevos game objects a partir de otros
             // se llama instanciado
@@ -100,6 +142,10 @@ public class Disparador : MonoBehaviour
                 _referencia.position,
                 _referencia.rotation
             );
+            */
+
+            // USANDO EL POOL
+            BulletPool.Instance.GetBullet(_referencia.position, _referencia.rotation);
             yield return new WaitForSeconds(0.75f);
         }
     }

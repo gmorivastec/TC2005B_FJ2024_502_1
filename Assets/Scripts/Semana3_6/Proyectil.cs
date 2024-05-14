@@ -15,10 +15,13 @@ public class Proyectil : MonoBehaviour
     private Rigidbody _rigidbody;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
+    }
 
+    void OnEnable()
+    {
         // la física utiliza espacio del mundo
 
         // para obtener "arriba", "derecha", "frente" utilizamos 
@@ -34,14 +37,37 @@ public class Proyectil : MonoBehaviour
         );
 
         // agregamos una estrategia de destrucción por tiempo
-        Destroy(gameObject, 4);
+        // Destroy(gameObject, 4);
+        StartCoroutine(Destruccion(4));
     }
 
+    void OnDisable()
+    {
+        _rigidbody.velocity = Vector3.zero;
+        StopAllCoroutines();
+    }
+
+    IEnumerator Destruccion(float time)
+    {
+        yield return new WaitForSeconds(time);
+        BulletPool.Instance.ReturnBullet(gameObject);
+    }
     void OnCollisionEnter(Collision c)
     {
         // otra estrategia - al chocar
         // podrías checar layer y tag
         if(c.gameObject.tag == "Enemigo")
-            Destroy(gameObject);
+        {
+            // uso de properties
+            // GUIManager.Instance = null; // AQUÍ SE VE COMO LA PROPIEDAD REGULA EL ACCESO
+            
+            // alternativa más común pero menos eficiente de todas:
+            // gameObject.Find
+
+            GUIManager.Instance.SetText(gameObject.name);
+            //Destroy(gameObject);
+            BulletPool.Instance.ReturnBullet(gameObject);
+        }
+            
     }
 }
