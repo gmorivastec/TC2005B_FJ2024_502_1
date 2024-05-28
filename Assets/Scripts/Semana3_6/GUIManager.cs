@@ -11,6 +11,9 @@ public class GUIManager : MonoBehaviour
     [SerializeField]
     private TMP_Text _texto;
 
+    [SerializeField]
+    private TMP_Text _contador;
+
     public static GUIManager Instance { 
         get;
         private set;    
@@ -24,10 +27,17 @@ public class GUIManager : MonoBehaviour
             Destroy(gameObject);
 
         Assert.IsNotNull(_texto, "TEXTO NO PUEDE SER NULO EN GUIMANAGER");
+        Assert.IsNotNull(_contador, "CONTADOR NO PUEDE SER NULO EN GUIMANAGER");
     }
 
     public void SetText(string text)
     {
         _texto.text = text;
     }
+    
+    public void SetContador(string text)
+    {
+        _contador.text = text;
+    }
+
 }
