@@ -1,0 +1,1227 @@
+fileFormatVersion: 2
+guid: 7b744ac51c1bd40d2b8fa78f917b5b11
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ken_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 905
+        width: 79
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fd594db6e32d778aaa7e39fc40c314
+      internalID: -391403501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 905
+        width: 79
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4692b3cd42eedd3a366f37e6b0d42d
+      internalID: 532443153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 903
+        width: 79
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759d132a901c55e0b905e7ec1c422d47
+      internalID: 1138927660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 903
+        width: 79
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60b5085def68f8f1a60a34cb06cb212
+      internalID: -687271622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_4
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 899
+        width: 79
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c98d45ae6146f69ac197b73969d140
+      internalID: -1132714581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_5
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 899
+        width: 79
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcee1b495f96d2bddacb408603615408
+      internalID: 1319193607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 900
+        width: 79
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167599b9627eb4b26b7d7e66c49bbbec
+      internalID: -544781719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_7
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 901
+        width: 79
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5add8cf9dab6ecbe58f48c3b961faa0a
+      internalID: 1247174764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_8
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 902
+        width: 79
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25365978aaad51e1a5681012bffec7e
+      internalID: -1906635309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_9
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 902
+        width: 79
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23949ff2f8eadf32cb4fd10f226beb06
+      internalID: 1556888315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 776
+        width: 94
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3dbe58a3c9cab47ab390452a89391c
+      internalID: -1041526579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 773
+        width: 94
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66dd3a1c54df55339506982b6edd957
+      internalID: 480167729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 775
+        width: 75
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00e7e18f5931da4b8115f2d873e0094
+      internalID: 414827047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_13
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 774
+        width: 71
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5b957fe9171843c85408e470475d00
+      internalID: -1246225414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_14
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 773
+        width: 68
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f691a3744eb250b8d6bc9493d5512e
+      internalID: -372275154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_15
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 768
+        width: 61
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d795831c3046d948bdd56b58bfb1d31
+      internalID: -2020206577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_16
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 769
+        width: 64
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39a5dc2c3bd9f7d6a25202a12510bc3
+      internalID: -1070241359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_17
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 771
+        width: 82
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7fdadb64bf494a09a13b41abc1618a
+      internalID: 157277592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_18
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 772
+        width: 92
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c46da7cc6cb9975b03475fda11f9de
+      internalID: -645512841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_19
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 771
+        width: 93
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e21e527412be287be5846daef2f43c
+      internalID: -56616885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_20
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 769
+        width: 93
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b406ffe411ecc43c9eb7e0a515ed6a1
+      internalID: 678589161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 630
+        width: 99
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84191e541ac16761da358fb8a8a48cef
+      internalID: -998427406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_22
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 630
+        width: 108
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfeae7b28e7fd11fa223f851afa3d4e
+      internalID: -463612286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 629
+        width: 109
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4897a4063dd66eef88754f216472965
+      internalID: -1820079902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_24
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 632
+        width: 136
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513ffce679c1896bb8b8d12b590d9e77
+      internalID: -621160428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_25
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 633
+        width: 137
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622dfa660c605a01c8498be46f88ce77
+      internalID: -1261130780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_26
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 635
+        width: 133
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca5acf60f2c16754a225fdd45aad4ec
+      internalID: -1908205821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_27
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 633
+        width: 125
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d8c63ffa7a34aa18453ded54a5f6d7
+      internalID: 380542255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 512
+        width: 125
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f5ffaeab3e63d5181c709169d0dbe1
+      internalID: 1410178368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_29
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 514
+        width: 125
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32afeae0f73ef64eabd3343c9f944653
+      internalID: -171883005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 516
+        width: 125
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492d26c4c74bd87da9de9fd0d1645ca1
+      internalID: -1906136313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_31
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 513
+        width: 106
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1c9604683bdfafeb608a8389a5d680
+      internalID: 920443087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_32
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 387
+        width: 78
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6e7060a2401711c8960996cf74b4b0
+      internalID: -2091939623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_33
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 388
+        width: 86
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8e24232daeb8ba6a82fb14a03fa901
+      internalID: -1681879550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_34
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 384
+        width: 89
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c3ab53a2d9391c6a167d975ffc21eb
+      internalID: 1032697680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_35
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 382
+        width: 86
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6971daa542baa8702a62495c2c431dde
+      internalID: 1299627090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_36
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 378
+        width: 89
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f92ffd81cd37d82a854b9e2b617ad8
+      internalID: -687779747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_37
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 377
+        width: 88
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898d4e6c04f4465d68a685e993deffb2
+      internalID: 13066687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_38
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 232
+        width: 74
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0df3bcea896dc38abc581648477c5b
+      internalID: 1229163116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_39
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 234
+        width: 74
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b3b408550d0d80ca28747445dbaa9c
+      internalID: 1271389919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_40
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 237
+        width: 72
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cd0e011a4fc3e98a15315e3001fc97
+      internalID: 1364661650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_41
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 244
+        width: 68
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f74ddf605f2d361ea0aed96e5ae0986
+      internalID: 2147246278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_42
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 252
+        width: 73
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42f7fdec070f421bb80e0e8e71c3216
+      internalID: 231121708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_43
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 248
+        width: 72
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d823413348429095e86beb7a63bb9e8d
+      internalID: -793625043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_44
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 246
+        width: 71
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa7bfa432a56ca53bd9e980d17ab3d9
+      internalID: 30733005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_45
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 233
+        width: 69
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2068c0d2659f46488227898d77138d
+      internalID: -472157139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_46
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 224
+        width: 70
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee1d94e0647b7a43a3444344a378901
+      internalID: 1183470947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_47
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 223
+        width: 70
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9450efc12caa7bd8c89bf8ceae2f95f3
+      internalID: -2014317135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_48
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 220
+        width: 71
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c6163d11d20b3e2bba2627639cc528
+      internalID: -151125364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ken_49
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 384
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c958a58daef38369de36f557a821b3
+      internalID: -1517194401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 42d2f68a59ae34514b723e0ca220ef75
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ken_0: -391403501
+      ken_1: 532443153
+      ken_10: -1041526579
+      ken_11: 480167729
+      ken_12: 414827047
+      ken_13: -1246225414
+      ken_14: -372275154
+      ken_15: -2020206577
+      ken_16: -1070241359
+      ken_17: 157277592
+      ken_18: -645512841
+      ken_19: -56616885
+      ken_2: 1138927660
+      ken_20: 678589161
+      ken_21: -998427406
+      ken_22: -463612286
+      ken_23: -1820079902
+      ken_24: -621160428
+      ken_25: -1261130780
+      ken_26: -1908205821
+      ken_27: 380542255
+      ken_28: 1410178368
+      ken_29: -171883005
+      ken_3: -687271622
+      ken_30: -1906136313
+      ken_31: 920443087
+      ken_32: -2091939623
+      ken_33: -1681879550
+      ken_34: 1032697680
+      ken_35: 1299627090
+      ken_36: -687779747
+      ken_37: 13066687
+      ken_38: 1229163116
+      ken_39: 1271389919
+      ken_4: -1132714581
+      ken_40: 1364661650
+      ken_41: 2147246278
+      ken_42: 231121708
+      ken_43: -793625043
+      ken_44: 30733005
+      ken_45: -472157139
+      ken_46: 1183470947
+      ken_47: -2014317135
+      ken_48: -151125364
+      ken_49: -1517194401
+      ken_5: 1319193607
+      ken_6: -544781719
+      ken_7: 1247174764
+      ken_8: -1906635309
+      ken_9: 1556888315
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

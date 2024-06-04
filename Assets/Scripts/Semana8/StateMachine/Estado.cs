@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Estado 
 {
@@ -11,6 +12,12 @@ public class Estado
         get;
     }
 
+    public Type Behaviour 
+    { 
+        private set;
+        get;  
+    }
+
 
     // para definir la función de transferencia vamos a usar un diccionario
     // diccionario es una estructura de datos en donde los datos están guardados
@@ -18,9 +25,10 @@ public class Estado
     // similar a un arreglo pero en lugar de un índice numérico es un objeto
     private Dictionary<Simbolo, Estado> _transferencia;
 
-    public Estado(string nombre)
+    public Estado(string nombre, Type behaviour)
     {
         this.Nombre = nombre;
+        this.Behaviour = behaviour;
         _transferencia = new Dictionary<Simbolo, Estado>();
     }
 
